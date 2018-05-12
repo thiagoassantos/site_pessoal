@@ -95,7 +95,7 @@ disqusShortname = ""
 
     [[params.tiles.showcase]]
       title = "Grupo de Apoio Estatístico - GAE"
-      subtitle = "Abordagens, técnicas e metodologias para colaboração as análises realizadas em projetos de pesquisas quantitativas nos mais variados temas"
+      subtitle = "Abordagens, técnicas e metodologias para colaboração em projetos de pesquisas quantitativas nos mais variados temas"
       image = "pic09.jpg"
       url = "http://gae.uniriotec.br/"
 
