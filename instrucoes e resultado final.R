@@ -1,7 +1,12 @@
-# https://emitanaka.github.io/showcase/
-# https://emitanaka.github.io/post/blogdowntutorial/
-
-
+##------------------------------------------------------------##
+##    Site pessoal com uso do Blogdown                        ##
+##                                                            ##
+##    https://emitanaka.github.io/showcase/                   ##
+##    https://emitanaka.github.io/post/blogdowntutorial/      ##
+##                                                            ##
+##    Steven Dutt-Ross                                        ##
+##    UNIRIO                                                  ##
+##------------------------------------------------------------##
 
 # First install the blogdown package if you haven’t got it:
 #install.packages("blogdown")
@@ -15,14 +20,14 @@ blogdown::new_site(dir="yoursite", install_hugo=TRUE, theme="MarcusVirg/forty")
 #After you have chosen the theme that you want, the first thing is to open the file config.toml. Usually it’s pretty straight forward here. Replace the values in the config.toml to your details. After you have done that run the command
 
 # Your working directory is the root directory of the website?
-
 setwd("C:/Users/Steven/Documents/GitHub/Blogdown/yoursite")
 blogdown::serve_site()
 
-# entrar no diretorio C:\Users\...\GitHub\Blogdown\yoursite
+# entrar no diretorio para C:\Users\...\GitHub\Blogdown\yoursite
 # e modificar o config.toml
 
-# "Local do arquivo C:/Users/Steven/Documents/GitHub/Blogdown/yoursite/public/index.html"
+#  Local do arquivo index.html
+#  "C:/Users/Steven/Documents/GitHub/Blogdown/yoursite/public/index.html"
 
 #---
 #  title: "Hello R Markdown"
